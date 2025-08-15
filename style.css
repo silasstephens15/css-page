@@ -6,7 +6,6 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -48,6 +47,11 @@ img{
     width: 100%;
 }
 
+.card{
+    margin: 48px;
+    width: 150px;
+}
+
 button{
     background-color: #3882F6;
     color: white;
@@ -79,14 +83,19 @@ button{
 .img-card{
     width: 100px;
     height: 100px;
+    display: block;
+    border: 1px solid gray;
 }
 
 .bottom{
     text-align: center;
-    font-style: italic;
     padding: 24px 0;
     background-color: lightgray;
     width: 100%;
+}
+
+blockquote{
+    font-style: italic;
 }
 
 .footer{
